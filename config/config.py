@@ -40,7 +40,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001530753519"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "LINDAMUSIC")
 
 # Your User ID.
 OWNER_ID = list(
@@ -59,7 +59,7 @@ UPSTREAM_REPO = getenv(
     "https://github.com/LLLP7/iiit2",
 )
 BOT_USERNAME = getenv(
-    "BOT_USERNAME", ""
+    "BOT_USERNAME", "NLLNBOT"
 )  # معرف بوتك بدون @
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -71,7 +71,7 @@ CHANNEL_SUDO = getenv(
     "CHANNEL_SUDO", "zzzz7lZ"
 )  # معرف قناتك بدون @
 YAFA_NAME = getenv(
-    "YAFA_NAME", "حَــأءِ ♡ مـيـمِ ."
+    "YAFA_NAME", "حَــأءِ ♡ مـيـمِ"
 )  # اسم قناتك
 YAFA_CHANNEL = getenv(
    " YAFA_CHANNEL", "https://t.me/Zzzz7lZ"
