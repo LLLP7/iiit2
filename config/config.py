@@ -21,10 +21,10 @@ API_ID = int(getenv("API_ID", ""))
 API_HASH = getenv("API_HASH", "")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5306766511:AAFAX5R-MMNMjN9mq6S95EH2-A8RkLO6YmY")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://YaFa:alhajji999@yafa.ckoem7a.mongodb.net/mohmed20034?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Elkber:Elkber@cluster0.feuljpn.mongodb.net/?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -56,10 +56,10 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/LLLP7/iiit2",
+    "https://github.com/olivermusic/iiit2",
 )
 BOT_USERNAME = getenv(
-    "BOT_USERNAME", "NLLNBOT"
+    "BOT_USERNAME", "kqkqbot"
 )  # معرف بوتك بدون @
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -68,16 +68,16 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "zzzz7lZ"
+    "CHANNEL_SUDO", "AAAWY"
 )  # معرف قناتك بدون @
 YAFA_NAME = getenv(
     "YAFA_NAME", "حَــأءِ ♡ مـيـمِ"
 )  # اسم قناتك
 YAFA_CHANNEL = getenv(
-   " YAFA_CHANNEL", "https://t.me/Zzzz7lZ"
+   " YAFA_CHANNEL", "https://t.me/AAAWY"
 )  # رابط قناتك
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/zzzz7lZ"
+    "SUPPORT_CHANNEL", "https://t.me/AAAWY"
 )  # رابط قناتك
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", None
